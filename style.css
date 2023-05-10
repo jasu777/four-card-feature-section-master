@@ -1,0 +1,136 @@
+*
+{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{   
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+
+    
+}
+
+
+
+header
+
+{   
+    
+    text-align: center;
+    margin-top: 6vh;
+    width: 100vw;
+    
+}
+   
+   h1
+   {font-size: 4vh; 
+    font-weight: 200;
+    color:  hsl(229, 6%, 66%);
+    font-family: 'Poppins';
+    margin-bottom: 0,25%;
+}
+   h2
+   {
+    font-size: 3.9vh;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    font-family: 'Poppins';
+    margin-bottom: 12px;
+    
+   }
+   h3
+   {font-size: 1.5vh;
+    color:hsl(229, 6%, 66%);
+    font-family: 'Poppins';
+    font-weight:200;
+    }
+
+
+    .container
+{   position: absolute;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 100vw;
+    
+    padding-top: 8vh;
+    
+    
+}
+
+.a , .b ,  .c , .d
+{ width: 36vh;
+  height: 27vh;
+  
+  margin-bottom: 2rem;
+  box-shadow: 10px 26px 73px -25px hsl(241, 100%, 89%);
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:3.5vh;
+  
+  
+}
+.a
+{
+    border-top: solid  hsl(180, 62%, 55%) 6px;
+}
+.b
+{
+    border-top: solid  hsl(0, 78%, 62%) 6px;
+}
+.c
+{
+    border-top: solid hsl(34, 97%, 64%) 6px;
+}
+.d
+{
+    border-top: solid hsl(212, 86%, 64%) 6px; 
+}
+.toptext
+{   
+    font-family: 'Poppins';
+    font-size: 2vh;
+    align-self:flex-start;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+   
+
+    
+    
+   
+
+}
+.bottomtext
+{   
+    font-family: 'Poppins';
+    font-size: 1.4vh;
+    align-self:flex-end;
+    margin-bottom:12px;
+    font-weight: 200;
+    color:  hsl(229, 6%, 66%);
+    
+    
+    
+    
+}
+
+.bc
+{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 36vh;
+  height: 100%;
+margin-left: 2rem;
+margin-right: 2rem; }
+img
+{
+    width: 7vh;
+    height: 7vh;
+}
